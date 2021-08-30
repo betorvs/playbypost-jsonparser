@@ -1,0 +1,52 @@
+10 Azurite :opaque mottled deep blue
+10 Banded agate :translucent striped brown, blue, white, or red
+10 Blue quartz :transparent pale blue
+10 Eye agate :translucent circles of gray, white, brown, blue, or green
+10 Hematite :opaque gray-black
+10 Lapis lazuli :opaque light and dark blue with yellow flecks
+10 Malachite :opaque striated light and dark green
+10 Moss agate :translucent pink or yellow-white with mossy gray or green markings
+10 Obsidian :opaque black
+10 Rhodochrosite :opaque light pink
+10 Tiger eye :translucent brown with golden center
+10 Turquoise :opaque light blue-green
+50 Bloodstone :opaque dark gray with red flecks
+50 Carnelian :opaque orange to red-brown
+50 Chalcedony :opaque white
+50 Chrysoprase :translucent green
+50 Citrine :transparent pale yellow-brown
+50 Jasper :opaque blue, black, or brown
+50 Moonstone :translucent white with pale blue glow
+50 Onyx :opaque bands of black and white, or pure black or white
+50 Quartz :transparent white, smoky gray, or yellow
+50 Sardonyx :opaque bands of red and white
+50 Star rose quartz :translucent rosy stone with white star-shaped center
+50 Zircon :transparent pale blue-green
+100 Amber :transparent watery gold to rich gold
+100 Amethyst :transparent deep purple
+100 Chrysoberyl :transparent yellow-green to pale green
+100 Coral :opaque crimson
+100 Garnet :transparent red, brown-green, or violet
+100 Jade :translucent light green, deep green, or white
+100 Jet :opaque deep black
+100 Pearl :opaque lustrous white, yellow, or pink
+100 Spinel :transparent red, red-brown, or deep green
+100 Tourmaline :transparent pale green, blue, brown, or red
+500 Alexandrite :transparent dark green
+500 Aquamarine :transparent pale blue-green
+500 Black pearl :opaque pure black
+500 Blue spinel :transparent deep blue
+500 Peridot :transparent rich olive green
+500 Topaz :transparent golden yellow
+1000 Black opal :translucent dark green with black mottling and golden flecks
+1000 Blue sapphire :transparent blue-white to medium blue
+1000 Emerald :transparent deep bright green
+1000 Fire opal :translucent fiery red
+1000 Opal :translucent pale blue with green and golden mottling
+1000 Star ruby :translucent ruby with white star-shaped center
+1000 Star sapphire :translucent blue sapphire with white star-shaped center
+1000 Yellow sapphire :transparent fiery yellow or yellow-green
+5000 Black sapphire :translucent lustrous black with glowing highlights
+5000 Diamond :transparent blue-white, canary, pink, brown, or blue
+5000 Jacinth :transparent fiery orange
+5000 Ruby :transparent clear red to deep crimson

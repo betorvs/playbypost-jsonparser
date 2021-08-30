@@ -1,0 +1,48 @@
+25:Ewer:Silver ewer
+25:Bone Statuette:Carved bone statuette
+25:bracelet:Small gold bracelet
+25:Cloth-of-gold:Cloth-of-gold vestments
+25:Black velvet mask:Black velvet mask stitched with silver thread
+25:Copper chalice:Copper chalice with silver filigree
+25:Bone dice:Pair of engraved bone dice
+25:Painted wooden:Small mirror set in a painted wooden frame
+25:Handkerchief:Embroidered silk handkerchief
+25:Painted portrait:Gold locket with a painted portrait inside
+250:Gold ring:Gold ring set with bloodstones
+250:Ivory Statuette:Carved ivory statuette
+250:Gold bracelet:Large gold bracelet
+250:Silver necklace:Silver necklace with a gemstone pendant
+250:Bronze crown:Bronze crown
+250:Silk robe:Silk robe with gold embroidery
+250:Tapestry:Large well-made tapestry
+250:Brass mug:Brass mug with jade inlay
+250:Box of turquoise:Box of turquoise animal figurines
+250:Gold bird cage:Gold bird cage with electrum filigree
+750:Silver chalice:Silver chalice set with moonstones
+750:Silver-plated steel longsword:Silver-plated steel longsword with jet set in hilt
+750:Carved harp:Carved harp of exotic wood with ivory inlay and zircon gems
+750:Gold idol:Small gold idol
+750:Gold dragon:Gold dragon comb set with red garnets as eyes
+750:Bottle stopper:Bottle stopper cork embossed with gold leaf and set with amethysts
+750:Ceremonial electrum dagger:Ceremonial electrum dagger with a black pearl in the pommel
+750:Silver and gold brooch:Silver and gold brooch
+750:Obsidian statuette:Obsidian statuette with gold fittings and inlay
+750:War mask:Painted gold war mask
+2500:Gold chain:Fine gold chain set with a fire opal
+2500:Old painting:Old masterpiece painting
+2500:Velvet mantle:Embroidered silk and velvet mantle set with numerous moonstones
+2500:Platinum bracelet:Platinum bracelet set with a sapphire
+2500:Embroidered glove:Embroidered glove set with jewel chips
+2500:Jeweled anklet:Jeweled anklet
+2500:Gold music box:Gold music box
+2500:Gold circlet:Gold circlet set with four aquamarines
+2500:Eye patch:Eye patch with a mock eye set in blue sapphire and moonstone
+2500:Necklace pearls:A necklace string of small pink pearls
+7500:Jeweled gold crown:Jeweled gold crown
+7500:Jeweled platinum ring:Jeweled platinum ring
+7500:Gold statuette:Small gold statuette set with rubies
+7500:Gold cup:Gold cup set with emeralds
+7500:Gold jewelry:Gold jewelry box with platinum filigree
+7500:Child's sarcophagus:Painted gold child's sarcophagus
+7500:Jade game board:Jade game board with solid gold playing pieces
+7500:Drinking horn:Bejeweled ivory drinking horn with gold filigree

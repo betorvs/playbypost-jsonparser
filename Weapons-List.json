@@ -1,0 +1,243 @@
+{
+  "Simple Melee Weapons": {
+    "table": {
+      "Name": [
+        "Club",
+        "Dagger",
+        "Greatclub",
+        "Handaxe",
+        "Javelin",
+        "Light hammer",
+        "Mace",
+        "Quarterstaff",
+        "Sickle",
+        "Spear"
+      ],
+      "Cost": [
+        "1 sp",
+        "2 gp",
+        "2 sp",
+        "5 gp",
+        "5 sp",
+        "2 gp",
+        "5 gp",
+        "2 sp",
+        "1 gp",
+        "1 gp"
+      ],
+      "Damage": [
+        "1d4 bludgeoning",
+        "1d4 piercing",
+        "1d8 bludgeoning",
+        "1d6 slashing",
+        "1d6 piercing",
+        "1d4 bludgeoning",
+        "1d6 bludgeoning",
+        "1d6 bludgeoning",
+        "1d4 slashing",
+        "1d6 piercing"
+      ],
+      "Weight": [
+        "2 lb.",
+        "1 lb.",
+        "10 lb.",
+        "2 lb.",
+        "2 lb.",
+        "2 lb.",
+        "4 lb.",
+        "4 lb.",
+        "2 lb.",
+        "3 lb."
+      ],
+      "Properties": [
+        "Light",
+        "Finesse, light, thrown (range 20/60)",
+        "Two-handed",
+        "Light, thrown (range 20/60)",
+        "Thrown (range 30/120)",
+        "Light, thrown (range 20/60)",
+        "—",
+        "Versatile (1d8)",
+        "Light",
+        "Thrown (range 20/60), versatile (1d8)"
+      ]
+    }
+  },
+  "Simple Ranged Weapons": {
+    "table": {
+      "Name": [
+        "Crossbow, light",
+        "Dart",
+        "Shortbow",
+        "Sling"
+      ],
+      "Cost": [
+        "25 gp",
+        "5 cp",
+        "25 gp",
+        "1 sp"
+      ],
+      "Damage": [
+        "1d8 piercing",
+        "1d4 piercing",
+        "1d6 piercing",
+        "1d4 bludgeoning"
+      ],
+      "Weight": [
+        "5 lb.",
+        "1/4 lb.",
+        "2 lb.",
+        "—"
+      ],
+      "Properties": [
+        "Ammunition (range 80/320), loading, two-handed",
+        "Finesse, thrown (range 20/60)",
+        "Ammunition (range 80/320), two-handed",
+        "Ammunition (range 30/120)"
+      ]
+    }
+  },
+  "Martial Melee Weapons": {
+    "table": {
+      "Name": [
+        "Battleaxe",
+        "Flail",
+        "Glaive",
+        "Greataxe",
+        "Greatsword",
+        "Halberd",
+        "Lance",
+        "Longsword",
+        "Maul",
+        "Morningstar",
+        "Pike",
+        "Rapier",
+        "Scimitar",
+        "Shortsword",
+        "Trident",
+        "War pick",
+        "Warhammer",
+        "Whip"
+      ],
+      "Cost": [
+        "10 gp",
+        "10 gp",
+        "20 gp",
+        "30 gp",
+        "50 gp",
+        "20 gp",
+        "10 gp",
+        "15 gp",
+        "10 gp",
+        "15 gp",
+        "5 gp",
+        "25 gp",
+        "25 gp",
+        "10 gp",
+        "5 gp",
+        "5 gp",
+        "15 gp",
+        "2 gp"
+      ],
+      "Damage": [
+        "1d8 slashing",
+        "1d8 bludgeoning",
+        "1d10 slashing",
+        "1d12 slashing",
+        "2d6 slashing",
+        "1d10 slashing",
+        "1d12 piercing",
+        "1d8 slashing",
+        "2d6 bludgeoning",
+        "1d8 piercing",
+        "1d10 piercing",
+        "1d8 piercing",
+        "1d6 slashing",
+        "1d6 piercing",
+        "1d6 piercing",
+        "1d8 piercing",
+        "1d8 bludgeoning",
+        "1d4 slashing"
+      ],
+      "Weight": [
+        "4 lb.",
+        "2 lb.",
+        "6 lb.",
+        "7 lb.",
+        "6 lb.",
+        "6 lb.",
+        "6 lb.",
+        "3 lb.",
+        "10 lb.",
+        "4 lb.",
+        "18 lb.",
+        "2 lb.",
+        "3 lb.",
+        "2 lb.",
+        "4 lb.",
+        "2 lb.",
+        "2 lb.",
+        "3 lb."
+      ],
+      "Properties": [
+        "Versatile (1d10)",
+        "—",
+        "Heavy, reach, two-handed",
+        "Heavy, two-handed",
+        "Heavy, two-handed",
+        "Heavy, reach, two-handed",
+        "Reach, special",
+        "Versatile (1d10)",
+        "Heavy, two-handed",
+        "—",
+        "Heavy, reach, two-handed",
+        "Finesse",
+        "Finesse, light",
+        "Finesse, light",
+        "Thrown (range 20/60), versatile (1d8)",
+        "—",
+        "Versatile (1d10)",
+        "Finesse, reach"
+      ]
+    }
+  },
+  "Martial Ranged Weapons": {
+    "table": {
+      "Name": [
+        "Blowgun",
+        "Crossbow, hand",
+        "Crossbow, heavy",
+        "Longbow",
+        "Net"
+      ],
+      "Cost": [
+        "10 gp",
+        "75 gp",
+        "50 gp",
+        "50 gp",
+        "1 gp"
+      ],
+      "Damage": [
+        "1 piercing",
+        "1d6 piercing",
+        "1d10 piercing",
+        "1d8 piercing",
+        "—"
+      ],
+      "Weight": [
+        "1 lb.",
+        "3 lb.",
+        "18 lb.",
+        "2 lb.",
+        "3 lb."
+      ],
+      "Properties": [
+        "Ammunition (range 25/100), loading",
+        "Ammunition (range 30/120), light, loading",
+        "Ammunition (range 100/400), heavy, loading, two-handed",
+        "Ammunition (range 150/600), heavy, two-handed",
+        "Special, thrown (range 5/15)"
+      ]
+    }
+  }
+}

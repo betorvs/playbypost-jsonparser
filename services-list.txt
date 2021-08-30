@@ -1,0 +1,33 @@
+Coach cab between towns:3:copper:per mile:services
+Coach cab within a city:1:copper:once:services
+Hireling Skilled:2:gold:per day:services
+Hireling Untrained:2:silver:per day:services
+Messenger:2:copper:per mile:services
+Road or gate toll:1:copper:once:services
+Ships passage:1:silver:per mile:services
+Lifestyle Squalid:1:silver:per day:lifestyle
+Lifestyle Poor:2:silver:per day:lifestyle
+Lifestyle Modest:1:gold:per day:lifestyle
+Lifestyle Comfortable:2:gold:per day:lifestyle
+Lifestyle Wealthy:4:gold:per day:lifestyle
+Lifestyle Aristocratic:10:gold: minimum:per day:lifestyle
+Inn stay Squalid:7:copper:per day:food drink and lodging
+Inn stay Poor:1:silver:per day:food drink and lodging
+Inn stay Modest:5:silver:per day:food drink and lodging
+Inn stay Comfortable:8:silver:per day:food drink and lodging
+Inn stay Wealthy:2:gold:per day:food drink and lodging
+Inn stay Aristocratic:4:gold:per day:food drink and lodging
+Meals Squalid:3:copper:per day:food drink and lodging
+Meals Poor:6:copper:per day:food drink and lodging
+Meals Modest:3:silver:per day:food drink and lodging
+Meals Comfortable:5:silver:per day:food drink and lodging
+Meals Wealthy:8:silver:per day:food drink and lodging
+Meals Aristocratic:2:gold:per day:food drink and lodging
+Ale Gallon:	2:silver:once:food drink and lodging
+Ale Mug:4:copper:once:food drink and lodging
+Banquet:10:gold:per person:food drink and lodging
+Bread loaf:2:copper:once:food drink and lodging
+Cheese hunk:1:silver:once:food drink and lodging
+Meat chunk:3:silver:once:food drink and lodging
+Wine Common (pitcher):2:silver:once:food drink and lodging
+Wine Fine (bottle):10:gold:once:food drink and lodging

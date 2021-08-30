@@ -1,0 +1,42 @@
+{
+  "Item": [
+    "Camel",
+    "Donkey or mule",
+    "Elephant",
+    "Horse, draft",
+    "Horse, riding",
+    "Mastiff",
+    "Pony",
+    "Warhorse"
+  ],
+  "Cost": [
+    "50 gp",
+    "8 gp",
+    "200 gp",
+    "50 gp",
+    "75 gp",
+    "25 gp",
+    "30 gp",
+    "400 gp"
+  ],
+  "Speed": [
+    "50 ft.",
+    "40 ft.",
+    "40 ft.",
+    "40 ft.",
+    "60 ft.",
+    "40 ft.",
+    "40 ft.",
+    "60 ft."
+  ],
+  "Carrying Capacity": [
+    "480 lb.",
+    "420 lb.",
+    "1,320 lb.",
+    "540 lb.",
+    "480 lb.",
+    "195 lb.",
+    "225 lb.",
+    "540 lb."
+  ]
+}

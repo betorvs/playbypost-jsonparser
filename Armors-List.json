@@ -1,0 +1,144 @@
+{
+  "Light Armor": {
+    "table": {
+      "Armor": [
+        "Padded",
+        "Leather",
+        "Studded leather"
+      ],
+      "Cost": [
+        "5 gp",
+        "10 gp",
+        "45 gp"
+      ],
+      "Armor Class (AC)": [
+        "11 + Dex modifier",
+        "11 + Dex modifier",
+        "12 + Dex modifier"
+      ],
+      "Strength": [
+        "—",
+        "—",
+        "—"
+      ],
+      "Stealth": [
+        "Disadvantage",
+        "—",
+        "—"
+      ],
+      "Weight": [
+        "8 lb.",
+        "10 lb.",
+        "13 lb."
+      ]
+    }
+  },
+  "Medium Armor": {
+    "table": {
+      "Armor": [
+        "Hide",
+        "Chain shirt",
+        "Scale mail",
+        "Breastplate",
+        "Half plate"
+      ],
+      "Cost": [
+        "10 gp",
+        "50 gp",
+        "50 gp",
+        "400 gp",
+        "750 gp"
+      ],
+      "Armor Class (AC)": [
+        "12 + Dex modifier (max 2)",
+        "13 + Dex modifier (max 2)",
+        "14 + Dex modifier (max 2)",
+        "14 + Dex modifier (max 2)",
+        "15 + Dex modifier (max 2)"
+      ],
+      "Strength": [
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "Stealth": [
+        "—",
+        "—",
+        "Disadvantage",
+        "—",
+        "Disadvantage"
+      ],
+      "Weight": [
+        "12 lb.",
+        "20 lb.",
+        "45 lb.",
+        "20 lb.",
+        "40 lb."
+      ]
+    }
+  },
+  "Heavy Armor": {
+    "table": {
+      "Armor": [
+        "Ring mail",
+        "Chain mail",
+        "Splint",
+        "Plate"
+      ],
+      "Cost": [
+        "30 gp",
+        "75 gp",
+        "200 gp",
+        "1,500 gp"
+      ],
+      "Armor Class (AC)": [
+        "14",
+        "16",
+        "17",
+        "18"
+      ],
+      "Strength": [
+        "—",
+        "Str 13",
+        "Str 15",
+        "Str 15"
+      ],
+      "Stealth": [
+        "Disadvantage",
+        "Disadvantage",
+        "Disadvantage",
+        "Disadvantage"
+      ],
+      "Weight": [
+        "40 lb.",
+        "55 lb.",
+        "60 lb.",
+        "65 lb."
+      ]
+    }
+  },
+  "Shield": {
+    "table": {
+      "Armor": [
+        "Shield"
+      ],
+      "Cost": [
+        "10 gp"
+      ],
+      "Armor Class (AC)": [
+        "+2"
+      ],
+      "Strength": [
+        "—"
+      ],
+      "Stealth": [
+        "—"
+      ],
+      "Weight": [
+        "6 lb."
+      ]
+    }
+  }
+}

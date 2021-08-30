@@ -1,0 +1,503 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"reflect"
+	"regexp"
+	"strings"
+)
+
+//MagicItem struct
+type MagicItem struct {
+	Name                    string         `json:"name"`
+	Title                   string         `json:"title"`
+	Content                 string         `json:"content"`
+	RequiredAttunement      bool           `json:"required_attunement"`
+	BodySpace               string         `json:"body_space"`
+	AttackBonus             int            `json:"attack_bonus,omitempty"`
+	ArmorClassBonus         int            `json:"armor_class_bonus,omitempty"`
+	SpellCastBonus          int            `json:"spellcast_bonus,omitempty"`
+	HealingDice             string         `json:"healing_dice,omitempty"`
+	NewAbility              map[string]int `json:"new_ability,omitempty"`
+	IncreaseAbility         map[string]int `json:"increase_ability,omitempty"`
+	Disvantages             []string       `json:"disvantages,omitempty"`
+	Advantages              []string       `json:"advantages,omitempty"`
+	AutoFail                []string       `json:"auto_fail,omitempty"`
+	DamageResistance        []string       `json:"damage_resistance,omitempty"`
+	DamageVulnerabilities   []string       `json:"damage_vulnerabilities,omitempty"`
+	DamageImmunities        []string       `json:"damage_immunities,omitempty"`
+	ConditionImmunities     []string       `json:"condition_immunities,omitempty"`
+	CancelDisvantage        []string       `json:"cancel_disvantage,omitempty"`
+	NaturalEnemy            []string       `json:"natural_enemy,omitempty"`
+	NaturalEnemyDamage      string         `json:"natural_enemy_damage,omitempty"`
+	NaturalEnemyHPCondition int            `json:"natural_enemy_hp_condition,omitempty"`
+	NaturalEnemySaving      string         `json:"natural_enemy_saving,omitempty"`
+	NaturalEnemySpecial     string         `json:"natural_enemy_special,omitempty"`
+	SpecialPower            string         `json:"special_power,omitempty"`
+	PowerDamageImmunities   []string       `json:"power_damage_immunities,omitempty"`
+	PowerCharges            int            `json:"power_charges,omitempty"`
+	PowerDamage             string         `json:"power_damage,omitempty"`
+	PowerDamageType         string         `json:"power_damage_type,omitempty"`
+	DifficultClass          int            `json:"difficult_class,omitempty"`
+	SavingThrow             string         `json:"saving_throw,omitempty"`
+	MagicalEffect           string         `json:"magical_effect,omitempty"`
+}
+
+//MagicItemPrint func
+func MagicItemPrint() {
+	DB, err := os.Open("./Magic-Items.json")
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer DB.Close()
+
+	byteValue, err := ioutil.ReadAll(DB)
+	if err != nil {
+		fmt.Println(err)
+	}
+	var result map[string]interface{}
+	err = json.Unmarshal(byteValue, &result)
+	if err != nil {
+		fmt.Println(err)
+	}
+	var magicItensList []MagicItem
+	for key, value := range result {
+		magicItem := new(MagicItem)
+		name := strings.ToLower(strings.ReplaceAll(key, " ", "-"))
+		if name == "sentient-magic-items" {
+			continue
+		}
+		if name == "cube-of-force-faces" {
+			continue
+		}
+		if name == "apparatus-of-the-crab-levers" {
+			magicItem.Name = "apparatus-of-the-crab-levers"
+			magicItem.Title = "Wondrous item, legendary"
+			magicItem.Content = "This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence (Investigation) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster."
+			magicItensList = append(magicItensList, *magicItem)
+			continue
+		}
+		if name == "artifacts" {
+			magicItem.Name = "orb-of-dragonkind"
+			magicItem.Title = "Wondrous item, artifact (requires attunement)"
+			magicItem.RequiredAttunement = true
+			magicItem.Content = orbOfDragonkind()
+			magicItensList = append(magicItensList, *magicItem)
+			continue
+		}
+		if name == "spell-scroll" {
+			magicItem.Name = "spell-scroll"
+			magicItem.Title = "Scroll, varies"
+			magicItem.Content = `A *spell scroll* bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell’s components. Otherwise, the scroll is unintelligible.
+			If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.
+			The level of the spell on the scroll determines the spell’s saving throw DC and attack bonus, as well as the scroll’s rarity, as shown in the Spell Scroll table.`
+			magicItensList = append(magicItensList, *magicItem)
+			continue
+		}
+		magicItem.Name = name
+		magicItem.RequiredAttunement = false
+
+		// fmt.Println(name)
+		content := value.(map[string]interface{})
+		for _, v := range content {
+			// fmt.Println(reflect.TypeOf(v).Kind())
+			switch reflect.TypeOf(v).Kind() {
+			case reflect.Slice:
+				s := reflect.ValueOf(v)
+				for i := 0; i < s.Len(); i++ {
+					value := fmt.Sprintln(s.Index(i))
+					if validateItemType(value) {
+						magicItem.Title = strings.ReplaceAll(strings.TrimSuffix(value, "\n"), "*", "")
+						if strings.Contains(magicItem.Title, "requires attunement") {
+							magicItem.RequiredAttunement = true
+						}
+					}
+					if !validateItemType(value) {
+						magicItem.Content += strings.TrimSuffix(value, "\n")
+
+					}
+
+				}
+				// case reflect.Map:
+				// 	s := reflect.ValueOf(v)
+				// 	for _, value := range s.MapKeys() {
+				// 		strct := s.MapIndex(value)
+				// 		value := fmt.Sprintln(strct)
+				// 		// fmt.Println(value)
+				// 		magicItem.Table += value
+				// 		// magicItem.Table[] += value
+				// 	}
+
+			}
+		}
+		// add special features
+		magicItem.BodySpace = bodyFit(name, magicItem.Title)
+		// add item to slice of items
+		magicItensList = append(magicItensList, *magicItem)
+	}
+	var verifiedMagicItens []MagicItem
+	var acBonus = regexp.MustCompile(`(gain a \+[0-9] bonus to AC)`)
+	var hasCharges = regexp.MustCompile(`(has [0-9] charges)`)
+	var hasAttackBonus = regexp.MustCompile(`(?m)( *.+? a \+[0-9]+ bonus to attack and damage roll)`)
+	var hasSpecialDamage = regexp.MustCompile(`(?m)((\d+)?d(\d+)([\+\-]\d+)? *.+? damage)`)
+	var damageTypeRegex = regexp.MustCompile(`(?m)(acid|cold|fire|force|lightning|necrotic|poison|psychic|radiant|thunder|bludgeoning|piercing|slashing)`)
+	var savingRegex = regexp.MustCompile(`(?m)(strength|dexterity|constitution|intelligence|wisdom|charisma")`)
+	var dices = regexp.MustCompile(`(?m)(\d+)?d(\d+)([\+\-]\d+)?`)
+	var dc = regexp.MustCompile(`(?m)(a DC [0-9]+ *.+? saving throw)`)
+	var reGainEffect = regexp.MustCompile(`(?m)(gain.* the effect of the \**.+?\* spell.)`)
+	var reExtractSpell = regexp.MustCompile(`(?m)(\*.+?\*)`)
+	//  grants a +2 bonus to attack and damage roll
+	for _, item := range magicItensList {
+		if strings.Contains(item.Name, "-+1,-+2,-or-+3") {
+
+			nameItem := strings.Split(item.Name, ",")
+			titleName := strings.Split(item.Title, ",")
+			for i := 1; i < 4; i++ {
+				magicItemNew := new(MagicItem)
+				magicItemNew = &item
+				magicItemNew.Title = fmt.Sprintf("%s, %s", titleName[0], titleName[i])
+				magicItemNew.Name = fmt.Sprintf("%s-%v", nameItem[0], i)
+				if nameItem[0] == "weapon" || nameItem[0] == "ammunition" {
+					magicItemNew.AttackBonus = i
+				}
+				if nameItem[0] == "armor" || nameItem[0] == "shield" {
+					magicItemNew.ArmorClassBonus = i
+				}
+				if nameItem[0] == "wand-of-the-war-mage" {
+					magicItemNew.SpellCastBonus = i
+					if !strings.Contains(magicItemNew.Title, "(requires attunement by a spellcaster)") {
+						magicItemNew.Title += " (requires attunement by a spellcaster)"
+					}
+				}
+				verifiedMagicItens = append(verifiedMagicItens, *magicItemNew)
+			}
+			continue
+		}
+		if item.Name == "potion-of-healing" {
+			healingNames := map[string]string{"healing": "2d4+2", "greater-healing": "4d4+4", "superior-healing": "8d4+8", "supreme-healing": "10d4+20"}
+			for k, v := range healingNames {
+				magicItem := new(MagicItem)
+				magicItem = &item
+				magicItem.Name = fmt.Sprintf("potion-of-%s", k)
+				magicItem.RequiredAttunement = item.RequiredAttunement
+				magicItem.HealingDice = v
+				verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+			}
+			continue
+		}
+		if strings.Contains(item.Content, "score is 19") {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			ability := make(map[string]int)
+			abiName := savingRegex.FindString(strings.ToLower(item.Content))
+			ability[abiName] = 19
+			magicItem.NewAbility = ability
+			// magicItem.LimitAbility = ability
+			verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+			continue
+		}
+		if item.Name == "belt-of-giant-strength" {
+			giantNames := map[string]int{"hill": 21, "stone": 23, "frost": 23, "fire": 25, "cloud": 27, "storm": 29}
+			ability := make(map[string]int)
+			for k, v := range giantNames {
+				magicItem := new(MagicItem)
+				magicItem = &item
+				magicItem.Name = fmt.Sprintf("belt-of-giant-%s-strength", k)
+				ability["strength"] = v
+				magicItem.NewAbility = ability
+				// magicItem.LimitAbility = ability
+				verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+			}
+			continue
+		}
+		if item.Name == "potion-of-giant-strength" {
+			giantNames := map[string]int{"hill": 21, "stone": 23, "frost": 23, "fire": 25, "cloud": 27, "storm": 29}
+
+			for k, v := range giantNames {
+				magicItem := new(MagicItem)
+				ability := make(map[string]int)
+				magicItem = &item
+				magicItem.Name = fmt.Sprintf("potion-of-giant-%s-strength", k)
+				ability["strength"] = v
+				magicItem.NewAbility = ability
+				// magicItem.LimitAbility = ability
+				verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+			}
+			continue
+		}
+		if strings.Contains(item.Content, "This book") {
+
+			ability := make(map[string]int)
+			abilities := []string{"Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"}
+			for _, v := range abilities {
+				if strings.Contains(item.Content, v) {
+					magicItem := new(MagicItem)
+					magicItem = &item
+					abi := strings.ToLower(v)
+					ability[abi] = 2
+					magicItem.IncreaseAbility = ability
+					verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+				}
+			}
+			continue
+		}
+		if item.Name == "potion-of-resistance" || item.Name == "armor-of-resistance" || item.Name == "ring-of-resistance" {
+			res := []string{"acid", "cold", "fire", "force", "lightning", "necrotic", "poison", "psychic", "radiant", "thunder"}
+			for _, v := range res {
+				magicItem := new(MagicItem)
+				magicItem = &item
+				partial := strings.Split(item.Name, "-")
+				magicItem.Name = fmt.Sprintf("%s-of-%s-resistance", partial[0], v)
+				magicItem.DamageResistance = []string{v}
+				verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+			}
+			continue
+		}
+		if item.Name == "spell-scroll" {
+			list := []string{"cantrip", "1st", "2nd", "3th", "4th", "5th", "6th", "7th", "8th", "9th"}
+			for _, v := range list {
+				magicItem := new(MagicItem)
+				magicItem = &item
+				magicItem.Name = fmt.Sprintf("spell-scroll-%s", v)
+				verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+			}
+		}
+		if item.Name == "dragon-scale-mail" {
+			dragonNames := map[string]string{"black": "acid", "blue": "cold", "brass": "fire", "bronze": "lightning", "copper": "acid", "gold": "fire", "green": "poison", "red": "fire", "silver": "cold", "white": "cold"}
+			for k, v := range dragonNames {
+				magicItem := new(MagicItem)
+				magicItem = &item
+				magicItem.Name = fmt.Sprintf("%s-dragon-scale-mail", k)
+				magicItem.DamageResistance = []string{v}
+				acBonusVerify := acBonus.FindString(item.Content)
+				magicItem.ArmorClassBonus = ExtractWholeInt(acBonusVerify)
+				magicItem.Advantages = []string{"frightful-presence", "dragon-breath"}
+				verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+
+			}
+			continue
+		}
+		if item.Name == "mithral-armor" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.CancelDisvantage = append(magicItem.CancelDisvantage, "stealth")
+			// verifiedMagicItens = append(verifiedMagicItens, *magicItem)
+		}
+		if item.Name == "adamantine-armor" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.DamageImmunities = append(magicItem.DamageImmunities, "criticalhit")
+		}
+		acBonusVerify := acBonus.FindString(item.Content)
+		if acBonusVerify != "" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.ArmorClassBonus = ExtractWholeInt(acBonusVerify)
+		}
+		verifyCharges := hasCharges.FindString(item.Content)
+		if verifyCharges != "" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.PowerCharges = ExtractWholeInt(verifyCharges)
+		}
+		verifyAttackBonus := hasAttackBonus.FindString(item.Content)
+		if verifyAttackBonus != "" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.AttackBonus = ExtractWholeInt(verifyAttackBonus)
+			if magicItem.Name == "oil-of-sharpness" {
+				magicItem.AttackBonus = 3
+			}
+		}
+		verifySpecialDamage := hasSpecialDamage.FindString(item.Content)
+		if verifySpecialDamage != "" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			damage := dices.FindString(strings.ReplaceAll(verifySpecialDamage, " ", ""))
+			magicItem.PowerDamage = damage
+			damageType := damageTypeRegex.FindString(strings.ToLower(verifySpecialDamage))
+			magicItem.PowerDamageType = damageType
+			if item.Name == "dwarven-thrower" {
+				magicItem.NaturalEnemy = []string{"giant"}
+				magicItem.NaturalEnemyDamage = "1d8"
+			}
+		}
+		verifyDifficult := dc.FindString(item.Content)
+		if verifyDifficult != "" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.DifficultClass = ExtractWholeInt(verifyDifficult)
+			magicItem.SavingThrow = savingRegex.FindString(strings.ToLower(verifyDifficult))
+			if item.Name == "sphere-of-annihilation" {
+				magicItem.DifficultClass = 13
+				magicItem.SavingThrow = "dexterity"
+			}
+		}
+		verifyGainEffect := reGainEffect.FindString(item.Content)
+		if verifyGainEffect != "" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			spell := reExtractSpell.FindString(verifyGainEffect)
+			magicItem.MagicalEffect = strings.ReplaceAll(strings.ReplaceAll(spell, "*", ""), " ", "-")
+			if magicItem.Name == "potion-of-mind-reading" {
+				magicItem.DifficultClass = 13
+			}
+		}
+		if item.Name == "armor-of-invulnerability" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.DamageResistance = []string{"bludgeoning", "piercing", "slashing"}
+			magicItem.SpecialPower = "active-damage-immunities"
+			magicItem.PowerDamageImmunities = []string{"bludgeoning", "piercing", "slashing"}
+		}
+		if item.Name == "periapt-of-wound-closure" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.SpecialPower = "double-hit-points-restored"
+		}
+		if item.Name == "periapt-of-health" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.ConditionImmunities = []string{"disease"}
+		}
+		if item.Name == "periapt-of-proof-against-poison" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.DamageImmunities = []string{"poison"}
+			magicItem.ConditionImmunities = []string{"poison"}
+		}
+		if item.Name == "mace-of-disruption" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.NaturalEnemy = []string{"fiend", "undead"}
+			magicItem.NaturalEnemyHPCondition = 25
+			magicItem.NaturalEnemySpecial = "frightened"
+		}
+		if item.Name == "mace-of-smiting" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.NaturalEnemy = []string{"construct"}
+			magicItem.NaturalEnemyHPCondition = 25
+			magicItem.NaturalEnemySpecial = "destroyed"
+		}
+		if item.Name == "dragon-slayer" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.NaturalEnemy = []string{"dragon"}
+			magicItem.PowerDamage = "3d6"
+		}
+		if item.Name == "circlet-of-blasting" {
+			magicItem := new(MagicItem)
+			magicItem = &item
+			magicItem.AttackBonus = 5
+			magicItem.SpecialPower = "scorching-ray"
+		}
+
+		verifiedMagicItens = append(verifiedMagicItens, item)
+
+	}
+
+	prettyJSON, err := json.MarshalIndent(verifiedMagicItens, "", "    ")
+	if err != nil {
+		fmt.Println("Failed to generate json", err)
+	}
+	fmt.Printf("%s", string(prettyJSON))
+
+}
+
+func orbOfDragonkind() string {
+	content := `Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five *Orbs of Dragonkind* (or *Dragon Orbs*) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.
+	As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.
+	Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.
+	An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.
+	While attuned to an orb, you can use an action to peer into the orb’s depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.
+	While you are charmed by the orb, you can’t voluntarily end your attunement to it, and the orb casts *suggestion* on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.
+	*Random Properties.* An *Orb of Dragonkind* has the following random properties:
+	[
+	  "2 minor beneficial properties",
+	  "1 minor detrimental property",
+	  "1 major detrimental property"
+	],
+	*Spells.* The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: *cure wounds* (5th-level version, 3 charges), *daylight* (1 charge), *death ward* (2 charges), or *scrying* (3 charges).
+	You can also use an action to cast the *detect magic* spell from the orb without using any charges.
+	*Call Dragons.* While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can’t be used again for 1 hour.
+	*Destroying an Orb.* An *Orb of Dragonkind* appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A *disintegrate* spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.`
+	return content
+}
+
+func bodyFit(name, title string) (message string) {
+	// Foot Hands Waist Core Neck Head Back
+	if strings.Contains(name, "rob") {
+		message = "core"
+	}
+	if strings.Contains(name, "gloves") || strings.Contains(name, "gauntlets") {
+		message = "hand"
+	}
+	if strings.Contains(name, "cloak") || strings.Contains(name, "cape") || strings.Contains(name, "mantle") {
+		message = "back"
+	}
+	if strings.Contains(name, "necklace") || strings.Contains(name, "medallion") || strings.Contains(name, "brooch") || strings.Contains(name, "amulet") || strings.Contains(name, "periapt") || strings.Contains(name, "talisman") || strings.Contains(name, "scarab") {
+		message = "neck"
+	}
+	if strings.Contains(name, "helm") || strings.Contains(name, "hat") || strings.Contains(name, "circlet") {
+		message = "head"
+	}
+	if strings.Contains(name, "belt") {
+		message = "waist"
+	}
+	if strings.Contains(name, "boots") {
+		message = "foot"
+	}
+	if strings.Contains(name, "ring") {
+		message = "ring"
+	}
+	if strings.Contains(title, "Weapon") {
+		message = "weapon"
+	}
+	if strings.Contains(title, "Staff") {
+		message = "weapon"
+	}
+	if strings.Contains(title, "Armor") {
+		message = "core"
+	}
+	if strings.Contains(title, "Ring") {
+		message = "ring"
+	}
+	if strings.Contains(title, "Wand") {
+		message = "weapon"
+	}
+	if strings.Contains(title, "Potion") {
+		message = "potion"
+	}
+	if strings.Contains(title, "Staff") {
+		message = "weapon"
+	}
+	if strings.Contains(title, "Rod") {
+		message = "weapon"
+	}
+
+	return message
+}
+
+// ExtractInt func
+// func ExtractInt(value string) int {
+// 	var re = regexp.MustCompile(`([0-9])`)
+// 	temp := re.FindString(value)
+// 	numbers, err := strconv.Atoi(strings.TrimSpace(temp))
+// 	if err != nil {
+// 		fmt.Printf("error extractInt convert string to int %v", err)
+// 	}
+// 	return numbers
+// }
+
+// func extractDCSavingThrow() {
+// 	var re = regexp.MustCompile(`(?m)(a DC [0-9]+ *.+? saving throw)`)
+// }
+
+// func extractBonusAttack(value string) int {
+// 	var re = regexp.MustCompile(`(?m)(ou gain a \+[0-9]+ bonus to attack and damage rolls)`)
+
+// }
