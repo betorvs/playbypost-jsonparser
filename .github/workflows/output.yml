@@ -33,6 +33,7 @@ jobs:
         ls output/
     - name: Commit and push if output directory changed
       run: |-
+        git add output
         git diff
         git config --global user.email "output-bot@example.com"
         git config --global user.name "output-bot"
