@@ -21,3 +21,5 @@ sed -i 's/7th Level/level7/g' output/spell-list.json
 sed -i 's/8th Level/level8/g' output/spell-list.json
 #9th Level
 sed -i 's/9th Level/level9/g' output/spell-list.json
+# Remove 
+sed -i 's/ Spells"/"/g' output/spell-list.json
