@@ -18,7 +18,6 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |-
-        cat 08\ spellcasting.json |jq '.Spellcasting."Spell Lists"' > output/spell-list.json
         go run . monster >output/new-monster-list.json
         go run . spell >output/new-spell-description-list.json
         go run . magicitem >output/new-magic-itens-list.json
@@ -30,6 +29,7 @@ jobs:
         go run . mounts >output/new-mounts-list.json
         go run . hoard >output/new-treasure-hoard-list.json
         go run . services >output/new-services-list.json
+        bash spell-list.sh
         ls -lha output/
         git diff
         git config --global user.email "output-bot@example.com"
