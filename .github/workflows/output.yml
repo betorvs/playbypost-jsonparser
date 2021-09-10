@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test:
-    name: Test
+    name: Build
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -14,8 +14,10 @@ jobs:
       with:
         go-version: 1.16
       id: go
-    - name: Output
-      run: |
+    - name: Update Output Directory
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |-
         cat 08\ spellcasting.json |jq '.Spellcasting."Spell Lists"' > output/spell-list.json
         go run . monster >output/new-monster-list.json
         go run . spell >output/new-spell-description-list.json
@@ -29,3 +31,10 @@ jobs:
         go run . hoard >output/new-treasure-hoard-list.json
         go run . services >output/new-services-list.json
         ls output/
+    - name: Commit and push if output directory changed
+      run: |-
+        git diff
+        git config --global user.email "output-bot@example.com"
+        git config --global user.name "output-bot"
+        git diff --quiet || (git add output.md && git commit -m "Updated output")
+        git push
