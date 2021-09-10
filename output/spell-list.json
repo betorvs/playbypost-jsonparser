@@ -1,5 +1,5 @@
 {
-  "Bard Spells": {
+  "Bard": {
     "level0": [
       "Dancing Lights",
       "Light",
@@ -131,7 +131,7 @@
       "True Polymorph"
     ]
   },
-  "Cleric Spells": {
+  "Cleric": {
     "level0": [
       "Guidance",
       "Light",
@@ -257,7 +257,7 @@
       "True Resurrection"
     ]
   },
-  "Druid Spells": {
+  "Druid": {
     "level0": [
       "Guidance",
       "Mending",
@@ -380,7 +380,7 @@
       "True Resurrection"
     ]
   },
-  "Paladin Spells": {
+  "Paladin": {
     "level1": [
       "Bless",
       "Command",
@@ -422,7 +422,7 @@
       "Raise Dead"
     ]
   },
-  "Ranger Spells": {
+  "Ranger": {
     "level1": [
       "Alarm",
       "Cure Wounds",
@@ -468,7 +468,7 @@
       "Tree Stride"
     ]
   },
-  "Sorcerer Spells": {
+  "Sorcerer": {
     "level0": [
       "Acid Splash",
       "Chill Touch",
@@ -608,7 +608,7 @@
       "Wish"
     ]
   },
-  "Warlock Spells": {
+  "Warlock": {
     "level0": [
       "Chill Touch",
       "Mage Hand",
@@ -690,7 +690,7 @@
       "True Polymorph"
     ]
   },
-  "Wizard Spells": {
+  "Wizard": {
     "level0": [
       "Acid Splash",
       "Chill Touch",

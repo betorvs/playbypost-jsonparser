@@ -1,5 +1,18 @@
 [
     {
+        "name": "shield",
+        "title": "Shield",
+        "kind": "shield",
+        "cost": 10,
+        "coin_type": "gold",
+        "armor_class": 2,
+        "dexterity_modifier": 99,
+        "stealth": false,
+        "strength": 0,
+        "weight": 6,
+        "measure": "lb"
+    },
+    {
         "name": "padded",
         "title": "Padded",
         "kind": "light-armor",
@@ -153,19 +166,6 @@
         "stealth": true,
         "strength": 15,
         "weight": 65,
-        "measure": "lb"
-    },
-    {
-        "name": "shield",
-        "title": "Shield",
-        "kind": "shield",
-        "cost": 10,
-        "coin_type": "gold",
-        "armor_class": 2,
-        "dexterity_modifier": 99,
-        "stealth": false,
-        "strength": 0,
-        "weight": 6,
         "measure": "lb"
     }
 ]
