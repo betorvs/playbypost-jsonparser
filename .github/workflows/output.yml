@@ -30,7 +30,7 @@ jobs:
         go run . mounts >output/new-mounts-list.json
         go run . hoard >output/new-treasure-hoard-list.json
         go run . services >output/new-services-list.json
-        ls output/
+        ls -lha output/
     - name: Commit and push if output directory changed
       run: |-
         git add output
