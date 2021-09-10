@@ -1,1 +1,51 @@
-{"key":"value"}
+[
+    {
+        "name": "burglars pack",
+        "title": "Burglars Pack ",
+        "description": "Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, a tinderbox, and a waterskin",
+        "cost": 16,
+        "coin_type": "gold"
+    },
+    {
+        "name": "diplomats pack",
+        "title": "Diplomats Pack ",
+        "description": "Includes a chest, 2 cases for maps and scrolls, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap",
+        "cost": 39,
+        "coin_type": "gold"
+    },
+    {
+        "name": "dungeoneers pack",
+        "title": "Dungeoneers Pack ",
+        "description": "Includes a backpack, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 10 days of rations, and a waterskin",
+        "cost": 12,
+        "coin_type": "gold"
+    },
+    {
+        "name": "entertainers pack",
+        "title": "Entertainers Pack ",
+        "description": "Includes a backpack, a bedroll, 2 costumes, 5 candles, 5 days of rations, a waterskin, and a disguise kit",
+        "cost": 40,
+        "coin_type": "gold"
+    },
+    {
+        "name": "explorers pack",
+        "title": "Explorers Pack ",
+        "description": "Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin",
+        "cost": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "priests pack",
+        "title": "Priests Pack ",
+        "description": "Includes a backpack, a blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer, vestments, 2 days of rations, and a waterskin",
+        "cost": 19,
+        "coin_type": "gold"
+    },
+    {
+        "name": "scholars pack",
+        "title": "Scholars Pack ",
+        "description": "Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife",
+        "cost": 40,
+        "coin_type": "gold"
+    }
+]

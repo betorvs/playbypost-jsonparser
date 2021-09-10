@@ -1,1 +1,82 @@
-{"key":"value"}
+[
+    {
+        "name": "camel",
+        "title": "Camel",
+        "cost": 50,
+        "coin_type": "gold",
+        "carrying_capacity": 480,
+        "carrying_capacity_measure": "lb",
+        "speed": 50,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "donkey or mule",
+        "title": "Donkey or mule",
+        "cost": 8,
+        "coin_type": "gold",
+        "carrying_capacity": 420,
+        "carrying_capacity_measure": "lb",
+        "speed": 40,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "elephant",
+        "title": "Elephant",
+        "cost": 200,
+        "coin_type": "gold",
+        "carrying_capacity": 1320,
+        "carrying_capacity_measure": "lb",
+        "speed": 40,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "horse draft",
+        "title": "Horse draft",
+        "cost": 50,
+        "coin_type": "gold",
+        "carrying_capacity": 540,
+        "carrying_capacity_measure": "lb",
+        "speed": 40,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "horse riding",
+        "title": "Horse riding",
+        "cost": 75,
+        "coin_type": "gold",
+        "carrying_capacity": 480,
+        "carrying_capacity_measure": "lb",
+        "speed": 60,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "mastiff",
+        "title": "Mastiff",
+        "cost": 25,
+        "coin_type": "gold",
+        "carrying_capacity": 195,
+        "carrying_capacity_measure": "lb",
+        "speed": 40,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "pony",
+        "title": "Pony",
+        "cost": 30,
+        "coin_type": "gold",
+        "carrying_capacity": 225,
+        "carrying_capacity_measure": "lb",
+        "speed": 40,
+        "speed_measure": "ft"
+    },
+    {
+        "name": "warhorse",
+        "title": "Warhorse",
+        "cost": 400,
+        "coin_type": "gold",
+        "carrying_capacity": 540,
+        "carrying_capacity_measure": "lb",
+        "speed": 60,
+        "speed_measure": "ft"
+    }
+]

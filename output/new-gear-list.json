@@ -1,1 +1,992 @@
-{"key":"value"}
+[
+    {
+        "name": "abacus",
+        "title": "Abacus",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "acid (vial)",
+        "title": "Acid (vial)",
+        "kind": "other",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "alchemists fire (flask)",
+        "title": "Alchemists fire (flask)",
+        "kind": "other",
+        "cost": 50,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "arrows (20)",
+        "title": "Arrows (20)",
+        "kind": "ammunition",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 20
+    },
+    {
+        "name": "blowgun needles (50)",
+        "title": "Blowgun needles (50)",
+        "kind": "ammunition",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 50
+    },
+    {
+        "name": "crossbow bolts (20)",
+        "title": "Crossbow bolts (20)",
+        "kind": "ammunition",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 20
+    },
+    {
+        "name": "sling bullets (20)",
+        "title": "Sling bullets (20)",
+        "kind": "ammunition",
+        "cost": 4,
+        "coin_type": "copper",
+        "weight": 1,
+        "measure": "lb",
+        "number": 20
+    },
+    {
+        "name": "antitoxin (vial)",
+        "title": "Antitoxin (vial)",
+        "kind": "other",
+        "cost": 50,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "crystal",
+        "title": "Crystal",
+        "kind": "arcane focus",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "orb",
+        "title": "Orb",
+        "kind": "arcane focus",
+        "cost": 20,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "rod",
+        "title": "Rod",
+        "kind": "arcane focus",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "staff",
+        "title": "Staff",
+        "kind": "arcane focus",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "wand",
+        "title": "Wand",
+        "kind": "arcane focus",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "backpack",
+        "title": "Backpack",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "ball bearings (bag of 1000)",
+        "title": "Ball bearings (bag of 1000)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "barrel",
+        "title": "Barrel",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 70,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "basket",
+        "title": "Basket",
+        "kind": "other",
+        "cost": 4,
+        "coin_type": "silver",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "bedroll",
+        "title": "Bedroll",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 7,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "bell",
+        "title": "Bell",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "blanket",
+        "title": "Blanket",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "block and tackle",
+        "title": "Block and tackle",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "book",
+        "title": "Book",
+        "kind": "other",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "bottle glass",
+        "title": "Bottle glass",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "bucket",
+        "title": "Bucket",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "copper",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "caltrops (bag of 20)",
+        "title": "Caltrops (bag of 20)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "candle",
+        "title": "Candle",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "copper",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "case crossbow bolt",
+        "title": "Case crossbow bolt",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "case map or scroll",
+        "title": "Case map or scroll",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "chain (10 feet)",
+        "title": "Chain (10 feet)",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "chalk (1 piece)",
+        "title": "Chalk (1 piece)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "copper",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "chest",
+        "title": "Chest",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 25,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "climbers kit",
+        "title": "Climbers kit",
+        "kind": "other",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 12,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "clothes common",
+        "title": "Clothes common",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "clothes costume",
+        "title": "Clothes costume",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "clothes fine",
+        "title": "Clothes fine",
+        "kind": "other",
+        "cost": 15,
+        "coin_type": "gold",
+        "weight": 6,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "clothes traveler’s",
+        "title": "Clothes traveler’s",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "component pouch",
+        "title": "Component pouch",
+        "kind": "other",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "crowbar",
+        "title": "Crowbar",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "sprig of mistletoe",
+        "title": "Sprig of mistletoe",
+        "kind": "druidic focus",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "totem",
+        "title": "Totem",
+        "kind": "druidic focus",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "wooden staff",
+        "title": "Wooden staff",
+        "kind": "druidic focus",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "yew wand",
+        "title": "Yew wand",
+        "kind": "druidic focus",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "fishing tackle",
+        "title": "Fishing tackle",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "flask or tankard",
+        "title": "Flask or tankard",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "copper",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "grappling hook",
+        "title": "Grappling hook",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "hammer",
+        "title": "Hammer",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "hammer sledge",
+        "title": "Hammer sledge",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "healers kit",
+        "title": "Healers kit",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "amulet",
+        "title": "Amulet",
+        "kind": "holy symbol",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "emblem",
+        "title": "Emblem",
+        "kind": "holy symbol",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "reliquary",
+        "title": "Reliquary",
+        "kind": "holy symbol",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "holy water (flask)",
+        "title": "Holy water (flask)",
+        "kind": "other",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "hourglass",
+        "title": "Hourglass",
+        "kind": "other",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "hunting trap",
+        "title": "Hunting trap",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 25,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "ink (1 ounce bottle)",
+        "title": "Ink (1 ounce bottle)",
+        "kind": "other",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "ink pen",
+        "title": "Ink pen",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "copper",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "jug or pitcher",
+        "title": "Jug or pitcher",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "copper",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "ladder (10-foot)",
+        "title": "Ladder (10-foot)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "silver",
+        "weight": 25,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "lamp",
+        "title": "Lamp",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "lantern bullseye",
+        "title": "Lantern bullseye",
+        "kind": "other",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "lantern hooded",
+        "title": "Lantern hooded",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "lock",
+        "title": "Lock",
+        "kind": "other",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "magnifying glass",
+        "title": "Magnifying glass",
+        "kind": "other",
+        "cost": 100,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "manacles",
+        "title": "Manacles",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 6,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "mess kit",
+        "title": "Mess kit",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "silver",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "mirror steel",
+        "title": "Mirror steel",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 12,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "oil (flask)",
+        "title": "Oil (flask)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "silver",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "paper (one sheet)",
+        "title": "Paper (one sheet)",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "silver",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "parchment (one sheet)",
+        "title": "Parchment (one sheet)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "silver",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "perfume (vial)",
+        "title": "Perfume (vial)",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "pick miners",
+        "title": "pick miners",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "piton",
+        "title": "Piton",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "copper",
+        "weight": 14,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "poison basic (vial)",
+        "title": "Poison basic (vial)",
+        "kind": "other",
+        "cost": 100,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "pole (10-foot)",
+        "title": "Pole (10-foot)",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "copper",
+        "weight": 7,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "pot iron",
+        "title": "Pot iron",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "potion of healing 5",
+        "title": "Potion of healing 5",
+        "kind": "other",
+        "cost": 0,
+        "coin_type": "gold",
+        "weight": 12,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "pouch",
+        "title": "Pouch",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "quiver",
+        "title": "Quiver",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "ram portable",
+        "title": "Ram portable",
+        "kind": "other",
+        "cost": 4,
+        "coin_type": "gold",
+        "weight": 35,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "rations (1 day)",
+        "title": "Rations (1 day)",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 2,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "robes",
+        "title": "Robes",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 4,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "rope hempen (50 feet)",
+        "title": "Rope hempen (50 feet)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "rope silk (50 feet)",
+        "title": "Rope silk (50 feet)",
+        "kind": "other",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "sack",
+        "title": "Sack",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "copper",
+        "weight": 12,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "scale merchants",
+        "title": "scale merchants",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "sealing wax",
+        "title": "Sealing wax",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "shovel",
+        "title": "Shovel",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "signal whistle",
+        "title": "Signal whistle",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "copper",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "signet ring",
+        "title": "Signet ring",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "soap",
+        "title": "Soap",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "copper",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "spellbook",
+        "title": "Spellbook",
+        "kind": "other",
+        "cost": 50,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "spikes iron (10)",
+        "title": "Spikes iron (10)",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "spyglass",
+        "title": "Spyglass",
+        "kind": "other",
+        "cost": 1000,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "tent two-person",
+        "title": "Tent two-person",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 20,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "tinderbox",
+        "title": "Tinderbox",
+        "kind": "other",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "torch",
+        "title": "Torch",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "copper",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    },
+    {
+        "name": "vial",
+        "title": "Vial",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 0,
+        "measure": "",
+        "number": 0
+    },
+    {
+        "name": "waterskin",
+        "title": "Waterskin",
+        "kind": "other",
+        "cost": 2,
+        "coin_type": "silver",
+        "weight": 5,
+        "measure": "lbfull",
+        "number": 0
+    },
+    {
+        "name": "whetstone",
+        "title": "Whetstone",
+        "kind": "other",
+        "cost": 1,
+        "coin_type": "copper",
+        "weight": 1,
+        "measure": "lb",
+        "number": 0
+    }
+]

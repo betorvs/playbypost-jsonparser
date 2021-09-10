@@ -1,1 +1,702 @@
-{"key":"value"}
+[
+    {
+        "name": "zurite",
+        "kind": "gemstone",
+        "description": "opaque mottled deep blue",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "andedagate",
+        "kind": "gemstone",
+        "description": "translucent striped brown, blue, white, or red",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "luequartz",
+        "kind": "gemstone",
+        "description": "transparent pale blue",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "yeagate",
+        "kind": "gemstone",
+        "description": "translucent circles of gray, white, brown, blue, or green",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ematite",
+        "kind": "gemstone",
+        "description": "opaque gray-black",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "apislazuli",
+        "kind": "gemstone",
+        "description": "opaque light and dark blue with yellow flecks",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "alachite",
+        "kind": "gemstone",
+        "description": "opaque striated light and dark green",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ossagate",
+        "kind": "gemstone",
+        "description": "translucent pink or yellow-white with mossy gray or green markings",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "bsidian",
+        "kind": "gemstone",
+        "description": "opaque black",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "hodochrosite",
+        "kind": "gemstone",
+        "description": "opaque light pink",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "igereye",
+        "kind": "gemstone",
+        "description": "translucent brown with golden center",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "urquoise",
+        "kind": "gemstone",
+        "description": "opaque light blue-green",
+        "value": 10,
+        "coin_type": "gold"
+    },
+    {
+        "name": "loodstone",
+        "kind": "gemstone",
+        "description": "opaque dark gray with red flecks",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "arnelian",
+        "kind": "gemstone",
+        "description": "opaque orange to red-brown",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "halcedony",
+        "kind": "gemstone",
+        "description": "opaque white",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "hrysoprase",
+        "kind": "gemstone",
+        "description": "translucent green",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "itrine",
+        "kind": "gemstone",
+        "description": "transparent pale yellow-brown",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "asper",
+        "kind": "gemstone",
+        "description": "opaque blue, black, or brown",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "oonstone",
+        "kind": "gemstone",
+        "description": "translucent white with pale blue glow",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "nyx",
+        "kind": "gemstone",
+        "description": "opaque bands of black and white, or pure black or white",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "uartz",
+        "kind": "gemstone",
+        "description": "transparent white, smoky gray, or yellow",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ardonyx",
+        "kind": "gemstone",
+        "description": "opaque bands of red and white",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "tarrosequartz",
+        "kind": "gemstone",
+        "description": "translucent rosy stone with white star-shaped center",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ircon",
+        "kind": "gemstone",
+        "description": "transparent pale blue-green",
+        "value": 50,
+        "coin_type": "gold"
+    },
+    {
+        "name": "mber",
+        "kind": "gemstone",
+        "description": "transparent watery gold to rich gold",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "methyst",
+        "kind": "gemstone",
+        "description": "transparent deep purple",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "hrysoberyl",
+        "kind": "gemstone",
+        "description": "transparent yellow-green to pale green",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "oral",
+        "kind": "gemstone",
+        "description": "opaque crimson",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "arnet",
+        "kind": "gemstone",
+        "description": "transparent red, brown-green, or violet",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ade",
+        "kind": "gemstone",
+        "description": "translucent light green, deep green, or white",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "et",
+        "kind": "gemstone",
+        "description": "opaque deep black",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "earl",
+        "kind": "gemstone",
+        "description": "opaque lustrous white, yellow, or pink",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "pinel",
+        "kind": "gemstone",
+        "description": "transparent red, red-brown, or deep green",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ourmaline",
+        "kind": "gemstone",
+        "description": "transparent pale green, blue, brown, or red",
+        "value": 100,
+        "coin_type": "gold"
+    },
+    {
+        "name": "lexandrite",
+        "kind": "gemstone",
+        "description": "transparent dark green",
+        "value": 500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "quamarine",
+        "kind": "gemstone",
+        "description": "transparent pale blue-green",
+        "value": 500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "lackpearl",
+        "kind": "gemstone",
+        "description": "opaque pure black",
+        "value": 500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "luespinel",
+        "kind": "gemstone",
+        "description": "transparent deep blue",
+        "value": 500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "eridot",
+        "kind": "gemstone",
+        "description": "transparent rich olive green",
+        "value": 500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "opaz",
+        "kind": "gemstone",
+        "description": "transparent golden yellow",
+        "value": 500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "lackopal",
+        "kind": "gemstone",
+        "description": "translucent dark green with black mottling and golden flecks",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "luesapphire",
+        "kind": "gemstone",
+        "description": "transparent blue-white to medium blue",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "merald",
+        "kind": "gemstone",
+        "description": "transparent deep bright green",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ireopal",
+        "kind": "gemstone",
+        "description": "translucent fiery red",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "pal",
+        "kind": "gemstone",
+        "description": "translucent pale blue with green and golden mottling",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "tarruby",
+        "kind": "gemstone",
+        "description": "translucent ruby with white star-shaped center",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "tarsapphire",
+        "kind": "gemstone",
+        "description": "translucent blue sapphire with white star-shaped center",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "ellowsapphire",
+        "kind": "gemstone",
+        "description": "transparent fiery yellow or yellow-green",
+        "value": 1000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "lacksapphire",
+        "kind": "gemstone",
+        "description": "translucent lustrous black with glowing highlights",
+        "value": 5000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "iamond",
+        "kind": "gemstone",
+        "description": "transparent blue-white, canary, pink, brown, or blue",
+        "value": 5000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "acinth",
+        "kind": "gemstone",
+        "description": "transparent fiery orange",
+        "value": 5000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "uby",
+        "kind": "gemstone",
+        "description": "transparent clear red to deep crimson",
+        "value": 5000,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Ewer",
+        "kind": "art-object",
+        "description": "Silver ewer",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Bone Statuette",
+        "kind": "art-object",
+        "description": "Carved bone statuette",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "bracelet",
+        "kind": "art-object",
+        "description": "Small gold bracelet",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Cloth-of-gold",
+        "kind": "art-object",
+        "description": "Cloth-of-gold vestments",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Black velvet mask",
+        "kind": "art-object",
+        "description": "Black velvet mask stitched with silver thread",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Copper chalice",
+        "kind": "art-object",
+        "description": "Copper chalice with silver filigree",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Bone dice",
+        "kind": "art-object",
+        "description": "Pair of engraved bone dice",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Painted wooden",
+        "kind": "art-object",
+        "description": "Small mirror set in a painted wooden frame",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Handkerchief",
+        "kind": "art-object",
+        "description": "Embroidered silk handkerchief",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Painted portrait",
+        "kind": "art-object",
+        "description": "Gold locket with a painted portrait inside",
+        "value": 25,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold ring",
+        "kind": "art-object",
+        "description": "Gold ring set with bloodstones",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Ivory Statuette",
+        "kind": "art-object",
+        "description": "Carved ivory statuette",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold bracelet",
+        "kind": "art-object",
+        "description": "Large gold bracelet",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Silver necklace",
+        "kind": "art-object",
+        "description": "Silver necklace with a gemstone pendant",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Bronze crown",
+        "kind": "art-object",
+        "description": "Bronze crown",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Silk robe",
+        "kind": "art-object",
+        "description": "Silk robe with gold embroidery",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Tapestry",
+        "kind": "art-object",
+        "description": "Large well-made tapestry",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Brass mug",
+        "kind": "art-object",
+        "description": "Brass mug with jade inlay",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Box of turquoise",
+        "kind": "art-object",
+        "description": "Box of turquoise animal figurines",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold bird cage",
+        "kind": "art-object",
+        "description": "Gold bird cage with electrum filigree",
+        "value": 250,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Silver chalice",
+        "kind": "art-object",
+        "description": "Silver chalice set with moonstones",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Silver-plated steel longsword",
+        "kind": "art-object",
+        "description": "Silver-plated steel longsword with jet set in hilt",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Carved harp",
+        "kind": "art-object",
+        "description": "Carved harp of exotic wood with ivory inlay and zircon gems",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold idol",
+        "kind": "art-object",
+        "description": "Small gold idol",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold dragon",
+        "kind": "art-object",
+        "description": "Gold dragon comb set with red garnets as eyes",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Bottle stopper",
+        "kind": "art-object",
+        "description": "Bottle stopper cork embossed with gold leaf and set with amethysts",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Ceremonial electrum dagger",
+        "kind": "art-object",
+        "description": "Ceremonial electrum dagger with a black pearl in the pommel",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Silver and gold brooch",
+        "kind": "art-object",
+        "description": "Silver and gold brooch",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Obsidian statuette",
+        "kind": "art-object",
+        "description": "Obsidian statuette with gold fittings and inlay",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "War mask",
+        "kind": "art-object",
+        "description": "Painted gold war mask",
+        "value": 750,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold chain",
+        "kind": "art-object",
+        "description": "Fine gold chain set with a fire opal",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Old painting",
+        "kind": "art-object",
+        "description": "Old masterpiece painting",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Velvet mantle",
+        "kind": "art-object",
+        "description": "Embroidered silk and velvet mantle set with numerous moonstones",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Platinum bracelet",
+        "kind": "art-object",
+        "description": "Platinum bracelet set with a sapphire",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Embroidered glove",
+        "kind": "art-object",
+        "description": "Embroidered glove set with jewel chips",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Jeweled anklet",
+        "kind": "art-object",
+        "description": "Jeweled anklet",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold music box",
+        "kind": "art-object",
+        "description": "Gold music box",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold circlet",
+        "kind": "art-object",
+        "description": "Gold circlet set with four aquamarines",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Eye patch",
+        "kind": "art-object",
+        "description": "Eye patch with a mock eye set in blue sapphire and moonstone",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Necklace pearls",
+        "kind": "art-object",
+        "description": "A necklace string of small pink pearls",
+        "value": 2500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Jeweled gold crown",
+        "kind": "art-object",
+        "description": "Jeweled gold crown",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Jeweled platinum ring",
+        "kind": "art-object",
+        "description": "Jeweled platinum ring",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold statuette",
+        "kind": "art-object",
+        "description": "Small gold statuette set with rubies",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold cup",
+        "kind": "art-object",
+        "description": "Gold cup set with emeralds",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Gold jewelry",
+        "kind": "art-object",
+        "description": "Gold jewelry box with platinum filigree",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Child's sarcophagus",
+        "kind": "art-object",
+        "description": "Painted gold child's sarcophagus",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Jade game board",
+        "kind": "art-object",
+        "description": "Jade game board with solid gold playing pieces",
+        "value": 7500,
+        "coin_type": "gold"
+    },
+    {
+        "name": "Drinking horn",
+        "kind": "art-object",
+        "description": "Bejeweled ivory drinking horn with gold filigree",
+        "value": 7500,
+        "coin_type": "gold"
+    }
+]

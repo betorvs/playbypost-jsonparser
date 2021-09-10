@@ -1,1 +1,266 @@
-{"key":"value"}
+[
+    {
+        "name": "coach cab between towns",
+        "title": "Coach cab between towns",
+        "cost": 3,
+        "coin_type": "copper",
+        "unit": "per mile",
+        "source": "services"
+    },
+    {
+        "name": "coach cab within a city",
+        "title": "Coach cab within a city",
+        "cost": 1,
+        "coin_type": "copper",
+        "unit": "once",
+        "source": "services"
+    },
+    {
+        "name": "hireling skilled",
+        "title": "Hireling Skilled",
+        "cost": 2,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "services"
+    },
+    {
+        "name": "hireling untrained",
+        "title": "Hireling Untrained",
+        "cost": 2,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "services"
+    },
+    {
+        "name": "messenger",
+        "title": "Messenger",
+        "cost": 2,
+        "coin_type": "copper",
+        "unit": "per mile",
+        "source": "services"
+    },
+    {
+        "name": "road or gate toll",
+        "title": "Road or gate toll",
+        "cost": 1,
+        "coin_type": "copper",
+        "unit": "once",
+        "source": "services"
+    },
+    {
+        "name": "ships passage",
+        "title": "Ships passage",
+        "cost": 1,
+        "coin_type": "silver",
+        "unit": "per mile",
+        "source": "services"
+    },
+    {
+        "name": "lifestyle squalid",
+        "title": "Lifestyle Squalid",
+        "cost": 1,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "lifestyle"
+    },
+    {
+        "name": "lifestyle poor",
+        "title": "Lifestyle Poor",
+        "cost": 2,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "lifestyle"
+    },
+    {
+        "name": "lifestyle modest",
+        "title": "Lifestyle Modest",
+        "cost": 1,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "lifestyle"
+    },
+    {
+        "name": "lifestyle comfortable",
+        "title": "Lifestyle Comfortable",
+        "cost": 2,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "lifestyle"
+    },
+    {
+        "name": "lifestyle wealthy",
+        "title": "Lifestyle Wealthy",
+        "cost": 4,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "lifestyle"
+    },
+    {
+        "name": "lifestyle aristocratic",
+        "title": "Lifestyle Aristocratic",
+        "cost": 10,
+        "coin_type": "gold",
+        "unit": " minimum",
+        "source": "per day"
+    },
+    {
+        "name": "inn stay squalid",
+        "title": "Inn stay Squalid",
+        "cost": 7,
+        "coin_type": "copper",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "inn stay poor",
+        "title": "Inn stay Poor",
+        "cost": 1,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "inn stay modest",
+        "title": "Inn stay Modest",
+        "cost": 5,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "inn stay comfortable",
+        "title": "Inn stay Comfortable",
+        "cost": 8,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "inn stay wealthy",
+        "title": "Inn stay Wealthy",
+        "cost": 2,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "inn stay aristocratic",
+        "title": "Inn stay Aristocratic",
+        "cost": 4,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meals squalid",
+        "title": "Meals Squalid",
+        "cost": 3,
+        "coin_type": "copper",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meals poor",
+        "title": "Meals Poor",
+        "cost": 6,
+        "coin_type": "copper",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meals modest",
+        "title": "Meals Modest",
+        "cost": 3,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meals comfortable",
+        "title": "Meals Comfortable",
+        "cost": 5,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meals wealthy",
+        "title": "Meals Wealthy",
+        "cost": 8,
+        "coin_type": "silver",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meals aristocratic",
+        "title": "Meals Aristocratic",
+        "cost": 2,
+        "coin_type": "gold",
+        "unit": "per day",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "ale gallon",
+        "title": "Ale Gallon",
+        "cost": 2,
+        "coin_type": "silver",
+        "unit": "once",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "ale mug",
+        "title": "Ale Mug",
+        "cost": 4,
+        "coin_type": "copper",
+        "unit": "once",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "banquet",
+        "title": "Banquet",
+        "cost": 10,
+        "coin_type": "gold",
+        "unit": "per person",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "bread loaf",
+        "title": "Bread loaf",
+        "cost": 2,
+        "coin_type": "copper",
+        "unit": "once",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "cheese hunk",
+        "title": "Cheese hunk",
+        "cost": 1,
+        "coin_type": "silver",
+        "unit": "once",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "meat chunk",
+        "title": "Meat chunk",
+        "cost": 3,
+        "coin_type": "silver",
+        "unit": "once",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "wine common (pitcher)",
+        "title": "Wine Common (pitcher)",
+        "cost": 2,
+        "coin_type": "silver",
+        "unit": "once",
+        "source": "food drink and lodging"
+    },
+    {
+        "name": "wine fine (bottle)",
+        "title": "Wine Fine (bottle)",
+        "cost": 10,
+        "coin_type": "gold",
+        "unit": "once",
+        "source": "food drink and lodging"
+    }
+]

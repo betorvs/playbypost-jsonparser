@@ -1,1 +1,352 @@
-{"key":"value"}
+[
+    {
+        "name": "alchemists supplies",
+        "title": "Alchemists supplies",
+        "kind": "artisans tools",
+        "cost": 50,
+        "coin_type": "gold",
+        "weight": 8,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "brewers supplies",
+        "title": "Brewers supplies",
+        "kind": "artisans tools",
+        "cost": 20,
+        "coin_type": "gold",
+        "weight": 9,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "calligraphers supplies",
+        "title": "Calligraphers supplies",
+        "kind": "artisans tools",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "carpenters tools",
+        "title": "Carpenters tools",
+        "kind": "artisans tools",
+        "cost": 8,
+        "coin_type": "gold",
+        "weight": 6,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "cartographers tools",
+        "title": "Cartographers tools",
+        "kind": "artisans tools",
+        "cost": 15,
+        "coin_type": "gold",
+        "weight": 6,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "cobblers tools",
+        "title": "Cobblers tools",
+        "kind": "artisans tools",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "cooks utensils",
+        "title": "Cooks utensils",
+        "kind": "artisans tools",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 8,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "glassblowers tools",
+        "title": "Glassblowers tools",
+        "kind": "artisans tools",
+        "cost": 30,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "jewelers tools",
+        "title": "Jewelers tools",
+        "kind": "artisans tools",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "leatherworkers tools",
+        "title": "Leatherworkers tools",
+        "kind": "artisans tools",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "masons tools",
+        "title": "Masons tools",
+        "kind": "artisans tools",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 8,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "painters supplies",
+        "title": "Painters supplies",
+        "kind": "artisans tools",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "potters tools",
+        "title": "Potters tools",
+        "kind": "artisans tools",
+        "cost": 10,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "smiths tools",
+        "title": "Smiths tools",
+        "kind": "artisans tools",
+        "cost": 20,
+        "coin_type": "gold",
+        "weight": 8,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "tinkers tools",
+        "title": "Tinkers tools",
+        "kind": "artisans tools",
+        "cost": 50,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "weavers tools",
+        "title": "Weavers tools",
+        "kind": "artisans tools",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "woodcarvers tools",
+        "title": "Woodcarvers tools",
+        "kind": "artisans tools",
+        "cost": 1,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "disguise kit",
+        "title": "Disguise kit",
+        "kind": "disguise kit",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "description": "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+    },
+    {
+        "name": "forgery kit",
+        "title": "Forgery kit",
+        "kind": "forgery kit",
+        "cost": 15,
+        "coin_type": "gold",
+        "weight": 5,
+        "measure": "lb",
+        "description": "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
+    },
+    {
+        "name": "dice set",
+        "title": "Dice set",
+        "kind": "gaming set",
+        "cost": 1,
+        "coin_type": "silver",
+        "weight": 0,
+        "measure": "lb",
+        "description": "This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+    },
+    {
+        "name": "playing card set",
+        "title": "Playing card set",
+        "kind": "gaming set",
+        "cost": 5,
+        "coin_type": "silver",
+        "weight": 0,
+        "measure": "lb",
+        "description": "This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+    },
+    {
+        "name": "herbalism kit",
+        "title": "Herbalism kit",
+        "kind": "herbalism kit",
+        "cost": 5,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "description": "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+    },
+    {
+        "name": "bagpipes",
+        "title": "Bagpipes",
+        "kind": "artisans tools",
+        "cost": 30,
+        "coin_type": "gold",
+        "weight": 6,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "drum",
+        "title": "Drum",
+        "kind": "artisans tools",
+        "cost": 6,
+        "coin_type": "gold",
+        "weight": 3,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "dulcimer",
+        "title": "Dulcimer",
+        "kind": "artisans tools",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 10,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "flute",
+        "title": "Flute",
+        "kind": "artisans tools",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "lute",
+        "title": "Lute",
+        "kind": "artisans tools",
+        "cost": 35,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "lyre",
+        "title": "Lyre",
+        "kind": "artisans tools",
+        "cost": 30,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "horn",
+        "title": "Horn",
+        "kind": "artisans tools",
+        "cost": 3,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "pan flute",
+        "title": "Pan flute",
+        "kind": "artisans tools",
+        "cost": 12,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "shawm",
+        "title": "Shawm",
+        "kind": "artisans tools",
+        "cost": 2,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "viol",
+        "title": "Viol",
+        "kind": "artisans tools",
+        "cost": 30,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "description": "These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan’s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan’s tools requires a separate proficiency."
+    },
+    {
+        "name": "navigators tools",
+        "title": "Navigators tools",
+        "kind": "navigators tools",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "This set of instruments is used for navigation at sea. Proficiency with navigator\u0026#39;s tools lets you chart a ship\u0026#39;s course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
+    },
+    {
+        "name": "poisoners kit",
+        "title": "Poisoners kit",
+        "kind": "poisoners kit",
+        "cost": 50,
+        "coin_type": "gold",
+        "weight": 2,
+        "measure": "lb",
+        "description": "A poisoner’s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+    },
+    {
+        "name": "thieves tools",
+        "title": "Thieves tools",
+        "kind": "thieves tools",
+        "cost": 25,
+        "coin_type": "gold",
+        "weight": 1,
+        "measure": "lb",
+        "description": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+    }
+]
