@@ -1,6 +1,6 @@
 {
   "Bard Spells": {
-    "Cantrips (0 Level)": [
+    "level0": [
       "Dancing Lights",
       "Light",
       "Mage Hand",
@@ -10,7 +10,7 @@
       "Prestidigitation",
       "True Strike"
     ],
-    "1st Level": [
+    "level1": [
       "Bane",
       "Charm Person",
       "Comprehend Languages",
@@ -31,7 +31,7 @@
       "Thunderwave",
       "Unseen Servant"
     ],
-    "2nd Level": [
+    "level2": [
       "Animal Messenger",
       "Blindness/Deafness",
       "Calm Emotions",
@@ -52,7 +52,7 @@
       "Suggestion",
       "Zone of Truth"
     ],
-    "3rd Level": [
+    "level3": [
       "Bestow Curse",
       "Clairvoyance",
       "Dispel Magic",
@@ -69,7 +69,7 @@
       "Tiny Hut",
       "Tongues"
     ],
-    "4th Level": [
+    "level4": [
       "Confusion",
       "Dimension Door",
       "Freedom of Movement",
@@ -78,7 +78,7 @@
       "Locate Creature",
       "Polymorph"
     ],
-    "5th Level": [
+    "level5": [
       "Animate Objects",
       "Awaken",
       "Dominate Person",
@@ -96,7 +96,7 @@
       "Seeming",
       "Teleportation Circle"
     ],
-    "6th Level": [
+    "level6": [
       "Eyebite",
       "Find the Path",
       "Guards and Wards",
@@ -105,7 +105,7 @@
       "Programmed Illusion",
       "True Seeing"
     ],
-    "7th Level": [
+    "level7": [
       "Arcane Sword",
       "Etherealness",
       "Forcecage",
@@ -117,7 +117,7 @@
       "Symbol",
       "Teleport"
     ],
-    "8th Level": [
+    "level8": [
       "Dominate Monster",
       "Feeblemind",
       "Glibness",
@@ -125,14 +125,14 @@
       "Power Word",
       "Stun"
     ],
-    "9th Level": [
+    "level9": [
       "Foresight",
       "Power Word Kill",
       "True Polymorph"
     ]
   },
   "Cleric Spells": {
-    "Cantrips (0 Level)": [
+    "level0": [
       "Guidance",
       "Light",
       "Mending",
@@ -140,7 +140,7 @@
       "Sacred Flame",
       "Thaumaturgy"
     ],
-    "1st Level": [
+    "level1": [
       "Bane",
       "Bless",
       "Command",
@@ -157,7 +157,7 @@
       "Sanctuary",
       "Shield of Faith"
     ],
-    "2nd Level": [
+    "level2": [
       "Aid",
       "Augury",
       "Blindness/Deafness",
@@ -176,7 +176,7 @@
       "Warding Bond",
       "Zone of Truth"
     ],
-    "3rd Level": [
+    "level3": [
       "Animate Dead",
       "Beacon of Hope",
       "Bestow Curse",
@@ -197,7 +197,7 @@
       "Tongues",
       "Water Walk"
     ],
-    "4th Level": [
+    "level4": [
       "Banishment",
       "Control Water",
       "Death Ward",
@@ -206,7 +206,7 @@
       "Locate Creature",
       "Stone Shape"
     ],
-    "5th Level": [
+    "level5": [
       "Commune",
       "Contagion",
       "Dispel Evil and Good",
@@ -222,7 +222,7 @@
       "Raise Dead",
       "Scrying"
     ],
-    "6th Level": [
+    "level6": [
       "Blade Barrier",
       "Create Undead",
       "Find the Path",
@@ -234,7 +234,7 @@
       "True Seeing",
       "Word of Recall"
     ],
-    "7th Level": [
+    "level7": [
       "Conjure Celestial",
       "Divine Word",
       "Etherealness",
@@ -244,13 +244,13 @@
       "Resurrection",
       "Symbol"
     ],
-    "8th Level": [
+    "level8": [
       "Antimagic Field",
       "Control Weather",
       "Earthquake",
       "Holy Aura"
     ],
-    "9th Level": [
+    "level9": [
       "Astral Projection",
       "Gate",
       "Mass Heal",
@@ -258,14 +258,14 @@
     ]
   },
   "Druid Spells": {
-    "Cantrips (0 Level)": [
+    "level0": [
       "Guidance",
       "Mending",
       "Produce Flame",
       "Resistance",
       "Shillelagh"
     ],
-    "1st Level": [
+    "level1": [
       "Charm Person",
       "Create or Destroy Water",
       "Cure Wounds",
@@ -281,7 +281,7 @@
       "Speak with Animals",
       "Thunderwave"
     ],
-    "2nd Level": [
+    "level2": [
       "Animal Messenger",
       "Barkskin",
       "Darkvision",
@@ -300,7 +300,7 @@
       "Protection from Poison",
       "Spike Growth"
     ],
-    "3rd Level": [
+    "level3": [
       "Call Lightning",
       "Conjure Animals",
       "Daylight",
@@ -314,7 +314,7 @@
       "Water Walk",
       "Wind Wall"
     ],
-    "4th Level": [
+    "level4": [
       "Blight",
       "Confusion",
       "Conjure Minor Elementals",
@@ -331,7 +331,7 @@
       "Stoneskin",
       "Wall of Fire"
     ],
-    "5th Level": [
+    "level5": [
       "Antilife Shell",
       "Awaken",
       "Commune with Nature",
@@ -347,7 +347,7 @@
       "Tree Stride",
       "Wall of Stone"
     ],
-    "6th Level": [
+    "level6": [
       "Conjure Fey",
       "Find the Path",
       "Heal",
@@ -358,14 +358,14 @@
       "Wall of Thorns",
       "Wind Walk"
     ],
-    "7th Level": [
+    "level7": [
       "Fire Storm",
       "Mirage Arcane",
       "Plane Shift",
       "Regenerate",
       "Reverse Gravity"
     ],
-    "8th Level": [
+    "level8": [
       "Animal Shapes",
       "Antipathy/Sympathy",
       "Control Weather",
@@ -373,7 +373,7 @@
       "Feeblemind",
       "Sunburst"
     ],
-    "9th Level": [
+    "level9": [
       "Foresight",
       "Shapechange",
       "Storm of Vengeance",
@@ -381,7 +381,7 @@
     ]
   },
   "Paladin Spells": {
-    "1st Level": [
+    "level1": [
       "Bless",
       "Command",
       "Cure Wounds",
@@ -394,7 +394,7 @@
       "Purify Food and Drink",
       "Shield of Faith"
     ],
-    "2nd Level": [
+    "level2": [
       "Aid",
       "Find Steed",
       "Lesser Restoration",
@@ -403,7 +403,7 @@
       "Protection from Poison",
       "Zone of Truth"
     ],
-    "3rd Level": [
+    "level3": [
       "Create Food and Water",
       "Daylight",
       "Dispel Magic",
@@ -411,19 +411,19 @@
       "Remove Curse",
       "Revivify"
     ],
-    "4th Level": [
+    "level4": [
       "Banishment",
       "Death Ward",
       "Locate Creature"
     ],
-    "5th Level": [
+    "level5": [
       "Dispel Evil and Good",
       "Geas",
       "Raise Dead"
     ]
   },
   "Ranger Spells": {
-    "1st Level": [
+    "level1": [
       "Alarm",
       "Cure Wounds",
       "Detect Magic",
@@ -433,7 +433,7 @@
       "Longstrider",
       "Speak with Animals"
     ],
-    "2nd Level": [
+    "level2": [
       "Animal Messenger",
       "Barkskin",
       "Darkvision",
@@ -446,7 +446,7 @@
       "Silence",
       "Spike Growth"
     ],
-    "3rd Level": [
+    "level3": [
       "Conjure Animals",
       "Daylight",
       "Nondetection",
@@ -457,19 +457,19 @@
       "Water Walk",
       "Wind Wall"
     ],
-    "4th Level": [
+    "level4": [
       "Conjure Woodland Beings",
       "Freedom of Movement",
       "Locate Creature",
       "Stoneskin"
     ],
-    "5th Level": [
+    "level5": [
       "Commune with Nature",
       "Tree Stride"
     ]
   },
   "Sorcerer Spells": {
-    "Cantrips (0 Level)": [
+    "level0": [
       "Acid Splash",
       "Chill Touch",
       "Dancing Lights",
@@ -483,7 +483,7 @@
       "Shocking Grasp",
       "True Strike"
     ],
-    "1st Level": [
+    "level1": [
       "Burning Hands",
       "Charm Person",
       "Color Spray",
@@ -502,7 +502,7 @@
       "Sleep",
       "Thunderwave"
     ],
-    "2nd Level": [
+    "level2": [
       "Alter Self",
       "Blindness/Deafness",
       "Blur",
@@ -525,7 +525,7 @@
       "Suggestion",
       "Web"
     ],
-    "3rd Level": [
+    "level3": [
       "Blink",
       "Clairvoyance",
       "Daylight",
@@ -546,7 +546,7 @@
       "Water Breathing",
       "Water Walk"
     ],
-    "4th Level": [
+    "level4": [
       "Banishment",
       "Blight",
       "Confusion",
@@ -558,7 +558,7 @@
       "Stoneskin",
       "Wall of Fire"
     ],
-    "5th Level": [
+    "level5": [
       "Animate Objects",
       "Cloudkill",
       "Cone of Cold",
@@ -571,7 +571,7 @@
       "Teleportation Circle",
       "Wall of Stone"
     ],
-    "6th Level": [
+    "level6": [
       "Chain Lightning",
       "Circle of Death",
       "Disintegrate",
@@ -582,7 +582,7 @@
       "Sunbeam",
       "True Seeing"
     ],
-    "7th Level": [
+    "level7": [
       "Delayed Blast",
       "Fireball",
       "Etherealness",
@@ -593,14 +593,14 @@
       "Reverse Gravity",
       "Teleport"
     ],
-    "8th Level": [
+    "level8": [
       "Dominate Monster",
       "Earthquake",
       "Incendiary Cloud",
       "Power Word Stun",
       "Sunburst"
     ],
-    "9th Level": [
+    "level9": [
       "Gate",
       "Meteor Swarm",
       "Power Word Kill",
@@ -609,14 +609,14 @@
     ]
   },
   "Warlock Spells": {
-    "Cantrips (0 Level)": [
+    "level0": [
       "Chill Touch",
       "Mage Hand",
       "Minor Illusion",
       "Prestidigitation",
       "True Strike"
     ],
-    "1st Level": [
+    "level1": [
       "Charm Person",
       "Comprehend Languages",
       "Expeditious Retreat",
@@ -624,7 +624,7 @@
       "Protection from Evil and Good",
       "Unseen Servant"
     ],
-    "2nd Level": [
+    "level2": [
       "Darkness",
       "Enthrall",
       "Hold Person",
@@ -636,7 +636,7 @@
       "Spider Climb",
       "Suggestion"
     ],
-    "3rd Level": [
+    "level3": [
       "Dispel Magic",
       "Fear",
       "Fly",
@@ -648,19 +648,19 @@
       "Tongues",
       "Vampiric Touch"
     ],
-    "4th Level": [
+    "level4": [
       "Banishment",
       "Blight",
       "Dimension Door",
       "Hallucinatory Terrain"
     ],
-    "5th Level": [
+    "level5": [
       "Contact Other Plane",
       "Dream",
       "Hold Monster",
       "Scrying"
     ],
-    "6th Level": [
+    "level6": [
       "Circle of Death",
       "Conjure Fey",
       "Create Undead",
@@ -669,20 +669,20 @@
       "Mass Suggestion",
       "True Seeing"
     ],
-    "7th Level": [
+    "level7": [
       "Etherealness",
       "Finger of Death",
       "Forcecage",
       "Plane Shift"
     ],
-    "8th Level": [
+    "level8": [
       "Demiplane",
       "Dominate Monster",
       "Feeblemind",
       "Glibness",
       "Power Word Stun"
     ],
-    "9th Level": [
+    "level9": [
       "Astral Projection",
       "Foresight",
       "Imprisonment",
@@ -691,7 +691,7 @@
     ]
   },
   "Wizard Spells": {
-    "Cantrips (0 Level)": [
+    "level0": [
       "Acid Splash",
       "Chill Touch",
       "Dancing Lights",
@@ -705,7 +705,7 @@
       "Shocking Grasp",
       "True Strike"
     ],
-    "1st Level": [
+    "level1": [
       "Alarm",
       "Burning Hands",
       "Charm Person",
@@ -733,7 +733,7 @@
       "Thunderwave",
       "Unseen Servant"
     ],
-    "2nd Level": [
+    "level2": [
       "Acid Arrow",
       "Alter Self",
       "Arcane Lock",
@@ -766,7 +766,7 @@
       "Suggestion",
       "Web"
     ],
-    "3rd Level": [
+    "level3": [
       "Animate Dead",
       "Bestow Curse",
       "Blink",
@@ -795,7 +795,7 @@
       "Vampiric Touch",
       "Water Breathing"
     ],
-    "4th Level": [
+    "level4": [
       "Arcane Eye",
       "Banishment",
       "Black Tentacles",
@@ -821,7 +821,7 @@
       "Stoneskin",
       "Wall of Fire"
     ],
-    "5th Level": [
+    "level5": [
       "Animate Objects",
       "Arcane Hand",
       "Cloudkill",
@@ -846,7 +846,7 @@
       "Wall of Force",
       "Wall of Stone"
     ],
-    "6th Level": [
+    "level6": [
       "Chain Lightning",
       "Circle of Death",
       "Contingency",
@@ -867,7 +867,7 @@
       "True Seeing",
       "Wall of Ice"
     ],
-    "7th Level": [
+    "level7": [
       "Arcane Sword",
       "Delayed Blast",
       "Fireball",
@@ -885,7 +885,7 @@
       "Symbol",
       "Teleport"
     ],
-    "8th Level": [
+    "level8": [
       "Antimagic Field",
       "Antipathy/Sympathy",
       "Clone",
@@ -899,7 +899,7 @@
       "Power Word Stun",
       "Sunburst"
     ],
-    "9th Level": [
+    "level9": [
       "Astral Projection",
       "Foresight",
       "Gate",
