@@ -1,0 +1,11 @@
+--- srd_5e_monsters.json 2020-05-27 22:33:15.000000000 +0200
++++ srd_5e_monsters.json        2020-06-02 23:25:16.000000000 +0200
+@@ -4050,7 +4050,7 @@
+     "Languages": "Draconic",
+     "Challenge": "3 (700 XP)",
+     "Traits": "<p><strong>Amphibious</strong>: The dragon can breathe air and water.</p>",
+-    "Actions": "<p><strong>Bite</strong>: <em>Melee Weapon Attack</em>: +6 to hit, reach 5 ft., one target. <em>Hit</em>: 9 (1d10 + 4) piercing damage.</p><p><strong>Breath Weapons (Recharge 5–6)</strong>: The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath</strong>: The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.</p><p><strong>Weakening Breath</strong>: The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
++    "Actions": "<p><strong>Bite.</strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d10 + 4) piercing damage.</p><p><strong>Breath Weapons (Recharge 5–6):</strong> The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath:</strong> The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.</p><p><strong>Weakening Breath:</strong> The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+     "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/516/315/315/636285466148376212.jpeg"
+   },
+   {

@@ -1,4 +1,4 @@
-# database/main
+# playbypost-jsonparser
 
 It's a json parser to create 4 files used by playbypost-dnd:
 - new-magic-itens-list.json  
@@ -133,22 +133,20 @@ Patch Tools.json:
 
 spell-list.json
 ```bash
-$ cat 08\ spellcasting.json |jq '.Spellcasting."Spell Lists"' > ../spell-list.json
+$ cat 08\ spellcasting.json |jq '.Spellcasting."Spell Lists"' > output/spell-list.json
 ```
 
 Others
 ```bash
-$ pwd
-.../playbypost-dnd/database/main
-go run . monster >../new-monster-list.json
-go run . spell >../new-spell-description-list.json
-go run . magicitem>../new-magic-itens-list.json
-go run . armor>../new-armor-list.json
-go run . weapon>../new-weapon-list.json
-go run . gear>../new-gear-list.json
-go run . packs>../new-packs-list.json
-go run . tools>../new-tools-list.json
-go run . mounts>../new-mounts-list.json
-go run . hoard >../new-treasure-hoard-list.json
-go run . services >../new-services-list.json
+go run . monster >output/new-monster-list.json
+go run . spell >output/new-spell-description-list.json
+go run . magicitem >output/new-magic-itens-list.json
+go run . armor >output/new-armor-list.json
+go run . weapon >output/new-weapon-list.json
+go run . gear >output/new-gear-list.json
+go run . packs >output/new-packs-list.json
+go run . tools >output/new-tools-list.json
+go run . mounts >output/new-mounts-list.json
+go run . hoard >output/new-treasure-hoard-list.json
+go run . services >output/new-services-list.json
 ```
