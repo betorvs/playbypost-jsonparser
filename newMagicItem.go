@@ -26,6 +26,7 @@ const (
 	WoundrousItems = "woundrous items"
 	Heal           = "heal"
 	Spell          = "spell"
+	SpellAttack    = "spell-attack"
 	Strength       = "strenght"
 	Dexterity      = "dexterity"
 	Constitution   = "constitution"
@@ -2362,8 +2363,8 @@ func NewMagicItemPrint() {
 	potionFire.HoardTable = tableB
 	potionFirepower := CorePowers{}
 	potionFire.Power = &potionFirepower
-	potionFire.Power.Purpose = Spell
-	potionFire.Power.Dice = "4d6"
+	potionFire.Power.Purpose = SpellAttack
+	potionFire.Power.DamageDice = "4d6"
 	potionFire.Power.DifficultClass = 13
 	potionFire.Power.SavingThrow = Dexterity
 	potionFire.Power.DamageType = "fire"
