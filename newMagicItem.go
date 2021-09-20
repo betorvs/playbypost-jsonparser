@@ -2366,6 +2366,7 @@ func NewMagicItemPrint() {
 	potionFire.Power.Dice = "4d6"
 	potionFire.Power.DifficultClass = 13
 	potionFire.Power.SavingThrow = Dexterity
+	potionFire.Power.DamageType = "fire"
 	listMagicItems = append(listMagicItems, potionFire)
 
 	// 	Alchemy Jug
