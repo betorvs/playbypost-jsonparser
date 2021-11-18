@@ -24,9 +24,9 @@ const (
 	Wands          = "wands"
 	Weapons        = "weapons"
 	WoundrousItems = "woundrous items"
-	Heal           = "heal"
-	Spell          = "spell"
-	SpellAttack    = "spell-attack"
+	Heal           = "heal"         // to heal you or allies
+	Spell          = "spell"        // magical effect from spell
+	SpellAttack    = "spell-attack" // spell to attack enemies
 	Strength       = "strenght"
 	Dexterity      = "dexterity"
 	Constitution   = "constitution"
