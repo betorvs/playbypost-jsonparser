@@ -1,57 +1,5 @@
 [
     {
-        "name": "ring-mail",
-        "title": "Ring mail",
-        "kind": "heavy-armor",
-        "cost": 30,
-        "coin_type": "gold",
-        "armor_class": 14,
-        "dexterity_modifier": 0,
-        "stealth": true,
-        "strength": 0,
-        "weight": 40,
-        "measure": "lb"
-    },
-    {
-        "name": "chain-mail",
-        "title": "Chain mail",
-        "kind": "heavy-armor",
-        "cost": 75,
-        "coin_type": "gold",
-        "armor_class": 16,
-        "dexterity_modifier": 0,
-        "stealth": true,
-        "strength": 13,
-        "weight": 55,
-        "measure": "lb"
-    },
-    {
-        "name": "splint",
-        "title": "Splint",
-        "kind": "heavy-armor",
-        "cost": 200,
-        "coin_type": "gold",
-        "armor_class": 17,
-        "dexterity_modifier": 0,
-        "stealth": true,
-        "strength": 15,
-        "weight": 60,
-        "measure": "lb"
-    },
-    {
-        "name": "plate",
-        "title": "Plate",
-        "kind": "heavy-armor",
-        "cost": 1500,
-        "coin_type": "gold",
-        "armor_class": 18,
-        "dexterity_modifier": 0,
-        "stealth": true,
-        "strength": 15,
-        "weight": 65,
-        "measure": "lb"
-    },
-    {
         "name": "shield",
         "title": "Shield",
         "kind": "shield",
@@ -166,6 +114,58 @@
         "stealth": true,
         "strength": 0,
         "weight": 40,
+        "measure": "lb"
+    },
+    {
+        "name": "ring-mail",
+        "title": "Ring mail",
+        "kind": "heavy-armor",
+        "cost": 30,
+        "coin_type": "gold",
+        "armor_class": 14,
+        "dexterity_modifier": 0,
+        "stealth": true,
+        "strength": 0,
+        "weight": 40,
+        "measure": "lb"
+    },
+    {
+        "name": "chain-mail",
+        "title": "Chain mail",
+        "kind": "heavy-armor",
+        "cost": 75,
+        "coin_type": "gold",
+        "armor_class": 16,
+        "dexterity_modifier": 0,
+        "stealth": true,
+        "strength": 13,
+        "weight": 55,
+        "measure": "lb"
+    },
+    {
+        "name": "splint",
+        "title": "Splint",
+        "kind": "heavy-armor",
+        "cost": 200,
+        "coin_type": "gold",
+        "armor_class": 17,
+        "dexterity_modifier": 0,
+        "stealth": true,
+        "strength": 15,
+        "weight": 60,
+        "measure": "lb"
+    },
+    {
+        "name": "plate",
+        "title": "Plate",
+        "kind": "heavy-armor",
+        "cost": 1500,
+        "coin_type": "gold",
+        "armor_class": 18,
+        "dexterity_modifier": 0,
+        "stealth": true,
+        "strength": 15,
+        "weight": 65,
         "measure": "lb"
     }
 ]

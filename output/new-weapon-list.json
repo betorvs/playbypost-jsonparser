@@ -1,65 +1,5 @@
 [
     {
-        "name": "blowgun",
-        "title": "Blowgun",
-        "kind": "martial-weapon",
-        "cost": 10,
-        "coin_type": "gold",
-        "damage": "1",
-        "damage_type": "piercing",
-        "weight": 1,
-        "measure": "lb",
-        "properties": "Ammunition (range 25/100), loading"
-    },
-    {
-        "name": "crossbow-hand",
-        "title": "Crossbow, hand",
-        "kind": "martial-weapon",
-        "cost": 75,
-        "coin_type": "gold",
-        "damage": "1d6",
-        "damage_type": "piercing",
-        "weight": 3,
-        "measure": "lb",
-        "properties": "Ammunition (range 30/120), light, loading"
-    },
-    {
-        "name": "crossbow-heavy",
-        "title": "Crossbow, heavy",
-        "kind": "martial-weapon",
-        "cost": 50,
-        "coin_type": "gold",
-        "damage": "1d10",
-        "damage_type": "piercing",
-        "weight": 18,
-        "measure": "lb",
-        "properties": "Ammunition (range 100/400), heavy, loading, two-handed"
-    },
-    {
-        "name": "longbow",
-        "title": "Longbow",
-        "kind": "martial-weapon",
-        "cost": 50,
-        "coin_type": "gold",
-        "damage": "1d8",
-        "damage_type": "piercing",
-        "weight": 2,
-        "measure": "lb",
-        "properties": "Ammunition (range 150/600), heavy, two-handed"
-    },
-    {
-        "name": "net",
-        "title": "Net",
-        "kind": "martial-weapon",
-        "cost": 1,
-        "coin_type": "gold",
-        "damage": "-",
-        "damage_type": "-",
-        "weight": 3,
-        "measure": "lb",
-        "properties": "Special, thrown (range 5/15)"
-    },
-    {
         "name": "club",
         "title": "Club",
         "kind": "simple-weapon",
@@ -448,5 +388,65 @@
         "weight": 3,
         "measure": "lb",
         "properties": "Finesse, reach"
+    },
+    {
+        "name": "blowgun",
+        "title": "Blowgun",
+        "kind": "martial-weapon",
+        "cost": 10,
+        "coin_type": "gold",
+        "damage": "1",
+        "damage_type": "piercing",
+        "weight": 1,
+        "measure": "lb",
+        "properties": "Ammunition (range 25/100), loading"
+    },
+    {
+        "name": "crossbow-hand",
+        "title": "Crossbow, hand",
+        "kind": "martial-weapon",
+        "cost": 75,
+        "coin_type": "gold",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": 3,
+        "measure": "lb",
+        "properties": "Ammunition (range 30/120), light, loading"
+    },
+    {
+        "name": "crossbow-heavy",
+        "title": "Crossbow, heavy",
+        "kind": "martial-weapon",
+        "cost": 50,
+        "coin_type": "gold",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "weight": 18,
+        "measure": "lb",
+        "properties": "Ammunition (range 100/400), heavy, loading, two-handed"
+    },
+    {
+        "name": "longbow",
+        "title": "Longbow",
+        "kind": "martial-weapon",
+        "cost": 50,
+        "coin_type": "gold",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "weight": 2,
+        "measure": "lb",
+        "properties": "Ammunition (range 150/600), heavy, two-handed"
+    },
+    {
+        "name": "net",
+        "title": "Net",
+        "kind": "martial-weapon",
+        "cost": 1,
+        "coin_type": "gold",
+        "damage": "-",
+        "damage_type": "-",
+        "weight": 3,
+        "measure": "lb",
+        "properties": "Special, thrown (range 5/15)"
     }
 ]
